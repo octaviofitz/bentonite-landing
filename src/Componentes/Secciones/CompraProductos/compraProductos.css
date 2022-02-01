@@ -1,0 +1,21 @@
+.compra-productos{
+    background-color: #1d6b87;
+    padding: 2rem;
+}
+
+.compra-productos-title{
+    font-size: 38px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.compra-productos-data{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+    color: #FFFFFFFF;
+}
+
+.button-compra-productos{
+    margin: 1rem;
+}
