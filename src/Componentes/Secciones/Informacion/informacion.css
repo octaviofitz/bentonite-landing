@@ -36,14 +36,42 @@
         width: 350px;
         border-radius: 10px;
         margin-left: 4rem;
+        margin-top: 1.5rem;
     }
     
     .container-data-informacion{
-        padding: 0px 8rem;
+        margin-top: 3.5rem;
+        padding: 0px 2rem;
+    }
+
+    .data-informacion{
+        font-size: 2vw;
     }
 }
 
 @media (min-width: 1024px){
+
+    .title-informacion{
+        font-size: 35px;
+        margin-top: 1rem;
+        }
+
+        .img-informacion{
+            width: 40vw;
+            border-radius: 10px;
+            margin-left: 4rem;
+            margin-top: 3rem;
+        }
+
+    .data-informacion{
+        font-size: 20px;
+        padding: 0rem 2rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media (min-width: 1280px){
 
     .title-informacion{
         font-size: 35px;
@@ -58,7 +86,7 @@
         }
 
     .data-informacion{
-        font-size: 20px;
+        font-size: 25px;
         padding: 0rem 2rem;
         margin-top: 2rem;
     }
