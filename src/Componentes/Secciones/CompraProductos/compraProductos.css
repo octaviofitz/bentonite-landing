@@ -1,21 +1,40 @@
 .compra-productos{
-    background-color: #1d6b87;
+    background-color: #f0f7f7;
     padding: 2rem;
 }
 
 .compra-productos-title{
     font-size: 38px;
-    color: #fff;
+    color: #424A4F;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
+    margin-bottom: 1.5rem;
 }
 
 .compra-productos-data{
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
-    color: #FFFFFFFF;
+    color: #424A4F;
 }
 
 .button-compra-productos{
     margin: 1rem;
+}
+
+.btn-secondary{
+    background-color: #FF8C1E;
+    border: none;
+}
+
+.btn-secondary:hover{
+    background-color: #DC5572;
+}
+
+@media (min-width: 1024px) {
+
+    .compra-productos-data{
+        padding: 0px 20rem;
+        font-size: 20px;
+    }
+
 }

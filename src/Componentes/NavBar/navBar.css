@@ -1,3 +1,19 @@
-.logo{
-    color: red;
+.bg-light{
+    background-color: #f0f7f7;
+}
+
+.navbar-light .navbar-brand {
+    color: #1d6b87;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #1d6b87;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1d6b87;
+    font-size: 20px;
+    padding: 0px 2rem;
 }

@@ -1,0 +1,66 @@
+.container-informacion{
+    margin: 2rem 0px;
+}
+
+.img-informacion{
+    width: 90%;
+    max-width: 633px;
+    border-radius: 10px;
+}
+
+.container-data-informacion{
+    margin: 2rem;
+}
+
+.title-informacion{
+    font-family: 'Roboto Slab', serif;
+    color: #424a4f;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.data-informacion{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px){
+
+    .container-seccion-informacion{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img-informacion{
+        width: 350px;
+        border-radius: 10px;
+        margin-left: 4rem;
+    }
+    
+    .container-data-informacion{
+        padding: 0px 8rem;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .title-informacion{
+        font-size: 35px;
+        margin-top: 3rem;
+        }
+
+        .img-informacion{
+            width: 633px;
+            height: 358px;
+            border-radius: 10px;
+            margin-left: 4rem;
+        }
+
+    .data-informacion{
+        font-size: 20px;
+        padding: 0rem 2rem;
+        margin-top: 2rem;
+    }
+
+}

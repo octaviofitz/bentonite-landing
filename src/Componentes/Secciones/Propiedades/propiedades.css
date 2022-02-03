@@ -19,7 +19,7 @@
 }
 
 .img-card{
-    border-radius: 50%;
+    border-radius: 25%;
     max-height: 80px;
     margin-top: 4rem ;
 }
@@ -43,5 +43,32 @@
 
     .cards-propiedades{
         flex-direction: row;
+        padding: 0px -5rem;
+        margin: 0px 0rem;
+        height: 120%;
     }
+
+    .cards{
+        padding: 0px 2rem;
+    }
+
+    .data-cards{
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .title-propiedades{
+        font-size: 35px;
+    }
+
+    .data-cards{
+        font-size: 20px;
+    }
+
+    .cards{
+        padding: 0px 5rem;
+    }
+
 }

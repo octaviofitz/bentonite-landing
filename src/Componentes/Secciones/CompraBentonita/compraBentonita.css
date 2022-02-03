@@ -8,6 +8,7 @@
     color: #fff;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .compra-bentonita-data{
@@ -18,4 +19,12 @@
 
 .button-compra-bentonita{
     margin: 1rem;
+}
+
+@media (min-width: 1024px){
+
+    .compra-bentonita-data{
+            padding: 0px 20rem;
+            font-size: 20px;
+    }
 }

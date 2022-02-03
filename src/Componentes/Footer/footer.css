@@ -5,6 +5,12 @@
     padding-bottom: 1rem;
 }
 
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #1d6b87;
+}
+
 .footer-title{
     font-size: 25px;
     color: #1d6b87;

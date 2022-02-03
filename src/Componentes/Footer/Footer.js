@@ -17,9 +17,9 @@ const Footer = () => {
             </div>
             <div>
             <div className='footer-container-iconos'>
-                <li className='footer-iconos'><i className="fab fa-whatsapp"></i></li>
-                <li className='footer-iconos'><i className="fas fa-globe-americas"></i></li>
-                <li className='footer-iconos'><i className="fas fa-map-marker-alt"></i></li>
+                <li className='footer-iconos'> <a href="https://api.whatsapp.com/send?phone=+541132762324&text=Hola😁" target='_blank'><i className="fab fa-whatsapp"></i></a></li>
+                <li className='footer-iconos'><a href='http://www.rubicat.com.ar' target='_blank'><i className="fas fa-globe-americas"></i></a></li>
+                <li className='footer-iconos'><a href='https://www.google.com/maps/place/Rubicat/@-34.7842268,-58.4247492,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcd30f9cec06ed:0x462185e1b045681f!8m2!3d-34.7842312!4d-58.4225605' target='_blank'><i className="fas fa-map-marker-alt"></i></a></li>
             </div>
             </div>
             </div>
