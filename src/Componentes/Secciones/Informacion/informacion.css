@@ -51,6 +51,10 @@
 
 @media (min-width: 1024px){
 
+    .container-seccion-informacion{
+        padding-bottom: 3rem;
+    }
+
     .title-informacion{
         font-size: 35px;
         margin-top: 1rem;
@@ -64,7 +68,7 @@
         }
 
     .data-informacion{
-        font-size: 20px;
+        font-size: 1.5vw;
         padding: 0rem 2rem;
         margin-top: 2rem;
     }
@@ -72,6 +76,7 @@
 }
 
 @media (min-width: 1280px){
+    
 
     .title-informacion{
         font-size: 35px;
@@ -86,7 +91,7 @@
         }
 
     .data-informacion{
-        font-size: 25px;
+        font-size: 1.75vw;
         padding: 0rem 2rem;
         margin-top: 2rem;
     }
