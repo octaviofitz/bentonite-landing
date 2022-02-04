@@ -1,0 +1,44 @@
+.texto-explicativo-azul{
+    color: #424A4F;
+    background-color: #dfeeee;
+    font-family: 'Roboto Slab', serif;
+    font-size: 21px;
+    padding: 1rem 1rem;
+    font-weight: 300;
+}
+
+.texto-explicativo-blanco{
+    color: #424A4F;
+    background-color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 21px;
+    margin: 0px 0em;
+    padding: 1rem 1rem;
+    font-weight: 300;
+}
+.texto-explicativo-blanco:last-child{
+   padding-top: 0rem;
+}
+
+@media (min-width: 768px){
+    
+    .texto-explicativo-azul,
+    .texto-explicativo-blanco{
+        font-size: 21px;
+        font-weight: 300;
+        padding: 2rem;
+    }
+}
+
+
+@media (min-width: 1024px){
+    
+    .texto-explicativo-azul{
+        padding: 2rem 15rem 2rem 15rem;
+    }
+
+    .texto-explicativo-blanco{
+        padding: 2rem 15rem;
+    }
+
+}

@@ -1,4 +1,5 @@
 import '../Footer/footer.css'
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -9,10 +10,10 @@ const Footer = () => {
             </div>
             <div>
             <div className='footer-container-lista'>
-                <li className='footer-lista'>Inicio</li>
-                <li className='footer-lista'>Propiedades</li>
-                <li className='footer-lista'>Contacto</li>
-                <li className='footer-lista'>Usos</li>
+              <Link activeClass="active" to="inicio" smooth={true} duration={1200}>  <li className='footer-lista'>Inicio</li> </Link>
+              <Link activeClass="active" to="propiedades" smooth={true} duration={1200}>  <li className='footer-lista'>Propiedades</li> </Link>
+              <Link activeClass="active" to="contacto" smooth={true} duration={1200}>  <li className='footer-lista'>Contacto</li> </Link>
+                <Link activeClass="active" to="usos" smooth={true} duration={1200}>  <li className='footer-lista'>Usos</li> </Link>
             </div>
             </div>
             <div>
