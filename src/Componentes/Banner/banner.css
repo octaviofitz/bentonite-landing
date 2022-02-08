@@ -18,6 +18,13 @@
      font-weight: 200;
 }
 
+#inicio .btn-secondary{
+    background-color: #00ACBB;
+    border: none;
+    padding: 0.75rem 2rem;
+}
+
+
 @media (min-width: 768px){
     
     .title-banner{
