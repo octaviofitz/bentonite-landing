@@ -25,6 +25,7 @@
 #formulario{
     display: flex;
     flex-direction: column;
+    margin-right: 0.75rem;
 }
 
 @media (min-width: 1024px){
@@ -49,7 +50,13 @@
     .formulario-compra-bentonita{
         padding: 1.5rem 3rem;
     }
+
+    #formulario{
+        margin-right: 0rem;
+    }
 }
+
+
 
 @media (min-width: 1280px){
 

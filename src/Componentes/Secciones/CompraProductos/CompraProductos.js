@@ -7,7 +7,7 @@ const CompraProductos = () => {
             <div className='container-compra-productos'>
                 <div className='container-data-general'>
                 <h3 className='compra-productos-title'>Comprar productos</h3>
-            <p className='compra-productos-data'>Realizamos distribución de productos a base de bentonita.</p>
+            <p className='compra-productos-data'>Realizamos distribución de <b> productos a base de bentonita.</b></p>
             <p className='compra-productos-data'> ¿Te interesa vender nuestros productos en tu país?</p>
             <p className='compra-productos-data'>¡Contactanos!</p>
                 </div>

@@ -54,12 +54,12 @@
         display: flex;
         flex-direction: row;
        /*  padding: 2rem -2rem;  */
-        margin: 0px 1rem;
+        margin: 0px 0rem;
     }
     
     .container-data-general,
     .container-video-boton{
-        padding: 1rem 1rem;
+        padding: 1rem 4rem;
         width: 50%;
     }
 
@@ -73,10 +73,11 @@
     .container-video-boton{
         padding: 0px 3rem;
         margin-bottom: 1rem;
+        margin-right: 2.5rem;
     }
 
     #video-rubicat{
-        width: 35vw;
+        width: 40vw;
         margin-top: 1rem;
     }
 
@@ -98,4 +99,10 @@
          margin-top: 2rem;
         font-size: 1.5rem;
     } 
+
+    .container-video-boton{
+        padding: 0px 3rem;
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+    }
 }
