@@ -21,18 +21,18 @@ const UsosBentonita = () => {
                 </div>
 
                 <div className='cards-usos'>
-                    <img src='/assets/usos/arenaAglutinante.png' alt='usos3' className='img-card-usos'/>
-                    <h4 className='title-cards-usos'>Arena sanitaria</h4>
+                   <a href='http://www.rubicat.com.ar' target='_blank' rel="noreferrer noopener"><img src='/assets/usos/arenaAglutinante.png' alt='usos3' className='img-card-usos'/>
+                    <h4 className='title-cards-usos'>Arena sanitaria</h4></a>
                 </div>
 
-               {/*  <div className='cards-usos'>
+                <div className='cards-usos'>
                     <img src='/assets/usos/makeup.png' alt='usos4' className='img-card-usos'/>
                     <h3 className='title-cards-usos'>Cosmética</h3>
-                </div> */}
+                </div> 
 
                 <div className='cards-usos'>
-                    <img src='/assets/usos/alimentoMascotas.png' alt='usos4' className='img-card-usos'/>
-                    <h4 className='title-cards-usos'>Alimento mascotas</h4>
+                    <img src='/assets/usos/alimento.png' alt='usos4' className='img-card-usos'/>
+                    <h4 className='title-cards-usos'>Alimento</h4>
                 </div>
 
 

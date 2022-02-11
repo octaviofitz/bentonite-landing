@@ -36,7 +36,7 @@
 .data-cards{
     font-family: 'Lato', sans-serif;
     color: #424A4F;
-    margin: 0px 1rem;
+    margin: auto;
 }
 
 @media (min-width: 768px){
@@ -61,15 +61,19 @@
 
     .title-propiedades{
         font-size: 35px;
+        margin: auto;
     }
+
 
     .data-cards{
         font-size: 20px;
+        margin: auto;
     }
 
     .cards{
         padding: 0px 5rem;
-        width: 33%;
+        /* width: 33.3%; */
+        margin: auto;
     }
 
 }

@@ -1,5 +1,6 @@
 import '../Banner/banner.css'
-import { Button } from 'react-bootstrap';
+import { Button, Nav} from 'react-bootstrap';
+
 
 
 const Banner = () => {
@@ -8,9 +9,9 @@ const Banner = () => {
             <div className='banner'>
             <h1 className='title-banner'>Bentonita</h1>
             <h2 className='subtitle-banner'>Fina bentonita patagónica</h2>
-            <a href="https://api.whatsapp.com/send?phone=+541132762324&text=Hola, estoy interesado en adquirir bentonita." target='_blank' rel="noreferrer noopener"><Button variant="secondary" size="lg" className='button-compra-bentonita'>
+            <Nav.Link href="#contacto"><Button variant="secondary" size="lg" className='button-compra-bentonita'>
                  COMPRAR
-             </Button></a>
+             </Button></Nav.Link>
             </div>
         </header>
     );
