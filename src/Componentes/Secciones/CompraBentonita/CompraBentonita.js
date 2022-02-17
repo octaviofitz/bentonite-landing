@@ -128,7 +128,7 @@ const CompraBentonita = () => {
               setBotonMail(true)
             }
         }}
-        error={errorMail}
+        error={errorMail} 
         helperText={leyendaMail}
         />
         <TextField
@@ -152,7 +152,7 @@ const CompraBentonita = () => {
               setBotonTelefono(true)
             }
         }}
-        error={errorTelefono}
+        error={errorTelefono} 
         helperText={leyendaTelefono}
         />
 
@@ -177,7 +177,7 @@ const CompraBentonita = () => {
               setBotonMensaje(true)
             }
         }}
-        error={errorMensaje}
+        error={errorMensaje} 
         helperText={leyendaMensaje}
         />
          {
