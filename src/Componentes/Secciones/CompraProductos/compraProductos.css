@@ -35,9 +35,9 @@
     background-color: #DC5572;
 }
 
-#video-rubicat{
-    width: 80vw;
-    border-radius: 10px;
+.video-rubicat{
+    width: 50vw;
+    border-radius: 100px;
     margin: auto;
 }
 
