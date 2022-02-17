@@ -2,8 +2,8 @@
     color: #424A4F;
     background-color: #dfeeee;
     font-family: 'Roboto Slab', serif;
-    font-size: 21px;
-    padding: 1rem 1rem;
+    font-size: 19px;
+    padding: 1rem 1.25rem;
     font-weight: 300;
 }
 
@@ -11,9 +11,9 @@
     color: #424A4F;
     background-color: #fff;
     font-family: 'Roboto Slab', serif;
-    font-size: 21px;
+    font-size: 19px;
     margin: 0px 0em;
-    padding: 1rem 1rem;
+    padding: 1rem 1.25rem;
     font-weight: 300;
 }
 .texto-explicativo-blanco:last-child{

@@ -49,7 +49,8 @@ a{
         flex-direction: row;
         justify-content: space-around;
     }
-
+    
+    .footer-title,
     .footer-lista,
     .footer-iconos{
         padding: 0px 0.75rem;

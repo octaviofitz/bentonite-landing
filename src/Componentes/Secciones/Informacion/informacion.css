@@ -23,6 +23,7 @@
     font-family: 'Roboto Slab', serif;
     font-weight: 200;
     margin-top: 1rem;
+    font-size: 1.10rem;
 }
 
 @media (min-width: 768px){
@@ -44,8 +45,12 @@
         padding: 0px 2rem;
     }
 
+    .title-informacion {
+        font-size: 25px;
+    }
+
     .data-informacion{
-        font-size: 1.8vw;
+        font-size: 1.5vw;
     }
 }
 

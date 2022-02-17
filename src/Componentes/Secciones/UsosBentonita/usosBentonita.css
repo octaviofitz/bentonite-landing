@@ -75,12 +75,18 @@
     .description-usos{
         font-size: 20px;
         color: #424A4F;
-        padding: 0px 20rem;
+        padding: 0px 10rem;
     }
 
     .img-card-usos{
         width: 250px;
         height: 250px;
     }
+}
 
+@media (min-width: 1440px){
+
+    .description-usos{
+        padding: 0px 20rem;
+    }
 }

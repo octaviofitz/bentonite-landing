@@ -96,7 +96,7 @@ const CompraBentonita = () => {
           setName(e.target.value);
           if(name.length>45){
             setErrorName(true);
-            setLeyendaName("El nombre contiene muchos caracteres");
+            setLeyendaName("Ingrese un nombre válido");
           }else{
               setErrorName(false);
               setLeyendaName('');
@@ -143,9 +143,9 @@ const CompraBentonita = () => {
         }}
         onChange={(e) => {
           setTelefono(e.target.value);
-          if(telefono.length>20){
+          if(telefono.length<6 || telefono.length>25){
             setErrorTelefono(true);
-            setLeyendaTelefono("El número de contacto tiene un máximo de 20 caracteres");
+            setLeyendaTelefono("Ingrese un número de contacto válido");
           }else{
               setErrorTelefono(false);
               setLeyendaTelefono('');
@@ -168,9 +168,9 @@ const CompraBentonita = () => {
         }}
         onChange={(e) => {
           setMensaje(e.target.value);
-          if(mensaje.length<20){
+          if(mensaje.length<20 || mensaje.length>5000){
             setErrorMensaje(true);
-            setLeyendaMensaje("El mensaje debe contener un mínimo de 20 caracteres");
+            setLeyendaMensaje("El mensaje debe contener un mínimo de 20 caracteres y un máximo de 5000");
           }else{
               setErrorMensaje(false);
               setLeyendaMensaje('');
