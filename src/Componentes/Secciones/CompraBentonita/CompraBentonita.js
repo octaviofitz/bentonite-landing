@@ -1,9 +1,11 @@
 import * as React from 'react';
+import { useState } from 'react';
 import '../CompraBentonita/compraBentonita.css'
 import { Button } from 'react-bootstrap';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
+import swal from 'sweetalert' 
 
 const CompraBentonita = () => {
 
@@ -20,11 +22,44 @@ const CompraBentonita = () => {
         }).catch(err=> console.log(err));
       }
 
-    const [value, setValue] = React.useState('Controlled');
 
-    const handleChange = (event) => {
-      setValue(event.target.value);
-    };
+    //validaciones
+    
+    //validación nombre
+    const [name, setName]= useState('')
+    const [leyendaName, setLeyendaName]= useState('')
+    const [errorName, setErrorName] = useState('')
+    const [botonName, setBotonName]= useState(false)
+
+    //validación email
+    const [mail, setMail]= useState('')
+    const [leyendaMail, setLeyendaMail]= useState('')
+    const [errorMail, setErrorMail] = useState('')
+    const [botonMail, setBotonMail]= useState(false)
+    const re= /\S+@\S+\.\S+/ // eslint-disable-line
+
+
+    //validación teléfono
+    const [telefono, setTelefono]= useState('')
+    const [leyendaTelefono, setLeyendaTelefono]= useState('')
+    const [errorTelefono, setErrorTelefono] = useState('')
+    const [botonTelefono, setBotonTelefono]= useState(false)
+
+    //validación mensaje
+    const [mensaje, setMensaje]= useState('')
+    const [leyendaMensaje, setLeyendaMensaje]= useState('')
+    const [errorMensaje, setErrorMensaje] = useState('')
+    const [botonMensaje, setBotonMensaje]= useState(false)
+
+    //SweetAlert
+    const mostrarAlerta=()=> {
+      swal({
+        title: "¡Su mensaje ha sido enviado con éxito!",
+        text: "En breve nos pondremos en contacto contigo",
+        icon: "success",
+        timer: "10000"
+      })
+    }
 
     return (
         <section className='compra-bentonita' id='contacto'>
@@ -39,7 +74,7 @@ const CompraBentonita = () => {
              <Box
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1/* , width: '50vw' */ },
+        '& .MuiTextField-root': { m: 1},
       }}
       noValidate
       autoComplete="off"
@@ -57,10 +92,23 @@ const CompraBentonita = () => {
           style={{
             backgroundColor: "#fff"
         }}
+        onChange={(e) => {
+          setName(e.target.value);
+          if(name.length>45){
+            setErrorName(true);
+            setLeyendaName("El nombre contiene muchos caracteres");
+          }else{
+              setErrorName(false);
+              setLeyendaName('');
+              setBotonName(true)
+            }
+        }}
+        error={errorName}
+        helperText={leyendaName}
            />
 
         <TextField
-          id="outlined-basic"
+          id="outlined-required"
           label="Correo electrónico"
           name='mail'
            variant="outlined"
@@ -69,6 +117,19 @@ const CompraBentonita = () => {
            style={{
             backgroundColor: "#fff"
         }}
+        onChange={(e) => {
+          setMail(e.target.value);
+          if(!re.test(mail)){
+            setErrorMail(true);
+            setLeyendaMail("Ingrese un correo electrónico válido");
+          }else{
+              setErrorMail(false);
+              setLeyendaMail('');
+              setBotonMail(true)
+            }
+        }}
+        error={errorMail}
+        helperText={leyendaMail}
         />
         <TextField
          id="outlined-basic"
@@ -80,6 +141,19 @@ const CompraBentonita = () => {
           style={{
             backgroundColor: "#fff"
         }}
+        onChange={(e) => {
+          setTelefono(e.target.value);
+          if(telefono.length>20){
+            setErrorTelefono(true);
+            setLeyendaTelefono("El número de contacto tiene un máximo de 20 caracteres");
+          }else{
+              setErrorTelefono(false);
+              setLeyendaTelefono('');
+              setBotonTelefono(true)
+            }
+        }}
+        error={errorTelefono}
+        helperText={leyendaTelefono}
         />
 
         <TextField
@@ -92,13 +166,37 @@ const CompraBentonita = () => {
           style={{
             backgroundColor: "#fff"
         }}
+        onChange={(e) => {
+          setMensaje(e.target.value);
+          if(mensaje.length<20){
+            setErrorMensaje(true);
+            setLeyendaMensaje("El mensaje debe contener un mínimo de 20 caracteres");
+          }else{
+              setErrorMensaje(false);
+              setLeyendaMensaje('');
+              setBotonMensaje(true)
+            }
+        }}
+        error={errorMensaje}
+        helperText={leyendaMensaje}
         />
-         <Button variant="secondary" size="lg" className='button-compra-bentonita'
-         type='submit'>
-                 Enviar mensaje
-             </Button>
+         {
+         botonName===true && botonTelefono===true && botonMail===true && botonMensaje===true
+           ? <Button variant="secondary" size="lg" className='button-compra-bentonita'
+           type='submit' onClick={()=>mostrarAlerta()}>
+                   Enviar mensaje
+               </Button>
+               
+               :
+               <Button variant="secondary" size="lg" className='button-compra-bentonita'
+           type='submit' disabled>
+                   Enviar mensaje
+               </Button>   
+            }
+      
       </div>
     
+      
     </Box>
 
              </div>

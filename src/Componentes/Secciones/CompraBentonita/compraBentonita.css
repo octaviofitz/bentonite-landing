@@ -28,6 +28,10 @@
     margin-right: 0.75rem;
 }
 
+.swal-button{
+    background-color: #FF8C1E;
+}
+
 @media (min-width: 1024px){
 
     .container-compra-bentonita{
@@ -55,7 +59,6 @@
         margin-right: 0rem;
     }
 }
-
 
 
 @media (min-width: 1280px){

@@ -10,7 +10,7 @@ const Banner = () => {
             <h1 className='title-banner'>Bentonita</h1>
             <h2 className='subtitle-banner'>Fina bentonita patagónica</h2>
             <Nav.Link href="#contacto"><Button variant="secondary" size="lg" className='button-compra-bentonita'>
-                 COMPRAR
+                 CONSULTAR
              </Button></Nav.Link>
             </div>
         </header>
