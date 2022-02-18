@@ -1,3 +1,4 @@
+//styles
 import '../Certificacion/certificacion.css'
 
 const Certificacion = () => {

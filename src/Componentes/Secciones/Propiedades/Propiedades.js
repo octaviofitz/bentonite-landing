@@ -1,3 +1,4 @@
+//styles
 import '../Propiedades/propiedades.css'
 
 const Propiedades = () => {

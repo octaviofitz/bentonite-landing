@@ -1,3 +1,4 @@
+//styles
 import '../InfoBanner/infoBanner.css'
 
 const InfoBanner = () => {

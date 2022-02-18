@@ -1,4 +1,6 @@
+//styles
 import '../Footer/footer.css'
+//scroll
 import { Link } from 'react-scroll';
 
 const Footer = () => {

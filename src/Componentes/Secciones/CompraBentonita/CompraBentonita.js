@@ -1,10 +1,14 @@
+//react
 import * as React from 'react';
 import { useState } from 'react';
+//styles
 import '../CompraBentonita/compraBentonita.css'
 import { Button } from 'react-bootstrap';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+//emailJS
 import emailjs from '@emailjs/browser';
+//sweetAlert
 import swal from 'sweetalert' 
 
 const CompraBentonita = () => {
@@ -28,13 +32,13 @@ const CompraBentonita = () => {
     //validación nombre
     const [name, setName]= useState('')
     const [leyendaName, setLeyendaName]= useState('')
-    const [errorName, setErrorName] = useState('')
+    const [errorName, setErrorName] = useState(false)
     const [botonName, setBotonName]= useState(false)
 
     //validación email
     const [mail, setMail]= useState('')
     const [leyendaMail, setLeyendaMail]= useState('')
-    const [errorMail, setErrorMail] = useState('')
+    const [errorMail, setErrorMail] = useState(false)
     const [botonMail, setBotonMail]= useState(false)
     const re= /\S+@\S+\.\S+/ // eslint-disable-line
 
@@ -42,13 +46,13 @@ const CompraBentonita = () => {
     //validación teléfono
     const [telefono, setTelefono]= useState('')
     const [leyendaTelefono, setLeyendaTelefono]= useState('')
-    const [errorTelefono, setErrorTelefono] = useState('')
+    const [errorTelefono, setErrorTelefono] = useState(false)
     const [botonTelefono, setBotonTelefono]= useState(false)
 
     //validación mensaje
     const [mensaje, setMensaje]= useState('')
     const [leyendaMensaje, setLeyendaMensaje]= useState('')
-    const [errorMensaje, setErrorMensaje] = useState('')
+    const [errorMensaje, setErrorMensaje] = useState(false)
     const [botonMensaje, setBotonMensaje]= useState(false)
 
     //SweetAlert
@@ -194,9 +198,7 @@ const CompraBentonita = () => {
                </Button>   
             }
       
-      </div>
-    
-      
+      </div>   
     </Box>
 
              </div>

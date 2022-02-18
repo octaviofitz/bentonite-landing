@@ -1,3 +1,4 @@
+//styles
 import '../UsosBentonita/usosBentonita.css'
 
 const UsosBentonita = () => {
@@ -6,7 +7,7 @@ const UsosBentonita = () => {
             <div className='container-usos'>
              <div>
             <h3 className='title-usos'>Diferentes usos del mineral</h3>
-            <p className='description-usos'>Las características especiales de la bentonita (expansión, absorción de agua, viscosidad, tixotropía) permiten el uso de este recurso en un amplio rango de sectores industriales y aplicaciones.</p>
+            <p className='description-usos'>Las características especiales de la bentonita sódica (expansión, absorción de agua, viscosidad, tixotropía) permiten el uso de este recurso en un amplio rango de sectores industriales y aplicaciones.</p>
             </div>
             <div className='container-usos-data'>
                
@@ -34,9 +35,6 @@ const UsosBentonita = () => {
                     <img src='/assets/usos/alimento.png' alt='usos4' className='img-card-usos'/>
                     <h4 className='title-cards-usos'>Alimento</h4>
                 </div>
-
-
-
                 
             </div>
             </div>

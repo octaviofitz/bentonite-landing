@@ -1,3 +1,4 @@
+//componentes
 import Banner from "../Banner/Banner";
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
