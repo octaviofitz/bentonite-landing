@@ -1,4 +1,6 @@
 //styles
+import CarruselDesktop from '../Carruseles/CarruselDesktop/CarruselDesktop';
+import CarruselMobile from '../Carruseles/CarruselMobile/CarruselMobile';
 import '../UsosBentonita/usosBentonita.css'
 
 const UsosBentonita = () => {
@@ -11,7 +13,7 @@ const UsosBentonita = () => {
             </div>
             <div className='container-usos-data'>
                
-                <div className='cards-usos'>
+                {/* <div className='cards-usos'>
                     <img src='/assets/usos/construccion.png' alt='usos1' className='img-card-usos'/>
                     <h4 className='title-cards-usos'>Construcción</h4>
                 </div>
@@ -34,8 +36,13 @@ const UsosBentonita = () => {
                 <div className='cards-usos'>
                     <img src='/assets/usos/alimento.png' alt='usos4' className='img-card-usos'/>
                     <h4 className='title-cards-usos'>Alimento</h4>
+                </div> */}
+                <div id='carrusel-mobile'>
+                    <CarruselMobile />
                 </div>
-                
+                <div id='carrusel-desktop' >
+                <CarruselDesktop />
+                </div>
             </div>
             </div>
         </section>

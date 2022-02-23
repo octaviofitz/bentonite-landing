@@ -1,0 +1,9 @@
+.titulo-carrusel{
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+#img-carrusel-mobile{
+    border-radius: 10px;
+}
