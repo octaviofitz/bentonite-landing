@@ -1,4 +1,4 @@
-import React from 'react';
+//styles
 import '../CarruselDesktop/carruselDesktop.css'
 import { Carousel } from 'react-bootstrap';
 

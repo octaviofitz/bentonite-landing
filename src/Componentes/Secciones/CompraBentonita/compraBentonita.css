@@ -25,7 +25,7 @@
 #formulario{
     display: flex;
     flex-direction: column;
-    margin-right: 0.75rem;
+    margin: auto;
 }
 
 .swal-button{
