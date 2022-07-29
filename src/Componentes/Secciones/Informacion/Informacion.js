@@ -6,7 +6,7 @@ const Informacion = () => {
         <section>
             <div className='container-seccion-informacion'>
             <div className='container-informacion'>
-            <img src='/assets/landing/bentonita.jpg' alt='bentonita sodica' className='img-informacion' />
+            <img src='/assets/landing/bentonita.webp' alt='bentonita sodica' className='img-informacion' />
             </div>
             <div className='container-data-informacion'>
                 <h3 className='title-informacion'>La mejor bentonita sódica del mercado</h3>

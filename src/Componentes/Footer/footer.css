@@ -43,6 +43,12 @@ a{
     margin-bottom: 1.5rem;
 }
 
+.lista-iconos{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: #1d6b87;
+}
 @media (min-width: 1024px){
    
     .container-footer{

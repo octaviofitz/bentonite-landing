@@ -17,8 +17,8 @@ const CompraBentonita = () => {
         e.preventDefault();
     
         emailjs.sendForm(
-          "service_e9xmjxh",
-          "template_yav7wvi",
+          "service_ktkun58",
+          "template_97th0cs",
           e.target,
           "user_UZZRkDhqNS7u2f3QF9aOT"
         ).then(res=>{

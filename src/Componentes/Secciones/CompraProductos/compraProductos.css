@@ -35,6 +35,9 @@
     background-color: #DC5572;
 }
 
+.ryt-lite{
+    border-radius: 10px;
+}
 
 @media (min-width: 768px){
     .container-video-boton{
