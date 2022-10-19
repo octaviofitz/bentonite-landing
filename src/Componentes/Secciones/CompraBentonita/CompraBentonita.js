@@ -69,7 +69,7 @@ const CompraBentonita = () => {
         <section className='compra-bentonita' id='contacto'>
             <div className='container-compra-bentonita'>
                 <div className='texto-compra-bentonita'>
-            <h3 className='compra-bentonita-title'>Comprar Bentonita</h3>
+            <h3 className='compra-bentonita-title'>COMPRAR BENTONITA</h3>
             <p className='compra-bentonita-data'>Contamos con la experiencia y la logística para enviar el mineral por vía terrestre, marítima y ferroviaria.</p>
             <p className='compra-bentonita-data'>¡Completá el formulario y contactanos!</p>
              </div>

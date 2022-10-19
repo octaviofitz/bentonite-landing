@@ -10,7 +10,7 @@ const UsosBentonita = () => {
         <section id='usos'>
             <div className='container-usos'>
              <div>
-            <h3 className='title-usos'>Diferentes usos del mineral</h3>
+            <h3 className='title-usos'>DIFERENTES USOS DEL MATERIAL</h3>
             <p className='description-usos'>Las características especiales de la bentonita sódica (expansión, absorción de agua, viscosidad, tixotropía) permiten el uso de este recurso en un amplio rango de sectores industriales y aplicaciones.</p>
             </div>
             <div className='container-usos-data'>

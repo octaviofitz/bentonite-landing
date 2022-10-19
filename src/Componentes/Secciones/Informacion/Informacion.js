@@ -11,7 +11,7 @@ const Informacion = () => {
             <div className='container-data-informacion'>
                 <h3 className='title-informacion'>La mejor bentonita sódica del mercado</h3>
                 <p className='data-informacion'>Nuestro compromiso con la calidad es integral, desde la explotación sustentable del recurso hasta la satisfacción total del cliente con nuestros productos y servicios.</p>
-                <p className='data-informacion'>Más de 30 años en el mercado nos avalan.</p>
+                <p className='data-informacion'><b>Más de 30 años en el mercado nos avalan</b></p>
             </div>
             </div>
         </section>

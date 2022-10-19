@@ -7,7 +7,7 @@
     font-size: 38px;
     color: #424A4F;
     font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 1rem;
 }
 
@@ -30,6 +30,12 @@
 
 .swal-button{
     background-color: #FF8C1E;
+}
+
+@media (min-width: 768px){
+    .compra-bentonita{
+        padding: 2rem 6rem;
+    }
 }
 
 @media (min-width: 1024px){

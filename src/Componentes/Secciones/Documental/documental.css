@@ -1,0 +1,46 @@
+.container-documental{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+ .titulo-documental{
+    font-size: 38px;
+    color: #424A4F;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.texto-documental{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+@media (min-width: 768px){
+    .container-documental{
+        padding: 2rem 6rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .container-documental{
+        display: flex;
+        margin: auto;
+        width: 75vw;
+    }
+
+    .texto-documental{
+        font-size: 1.15rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .container-documental{
+        width: 55vw;
+    }
+
+    .texto-documental{
+        font-size: 1.35rem;
+    }
+}

@@ -58,6 +58,7 @@
 
     .container-seccion-informacion{
         padding-bottom: 3rem;
+        display: none;
     }
 
     .title-informacion{

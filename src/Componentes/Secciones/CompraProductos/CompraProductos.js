@@ -9,7 +9,7 @@ const CompraProductos = () => {
         <section className='compra-productos'>
             <div className='container-compra-productos'>
                 <div className='container-data-general'>
-                <h3 className='compra-productos-title'>Comprar productos</h3>
+                <h3 className='compra-productos-title'>COMPRAR PRODUCTOS</h3>
             <p className='compra-productos-data'>Realizamos distribución de <b> productos a base de bentonita.</b></p>
             <p className='compra-productos-data'>¿Te interesa vender nuestros productos en tu región?</p>
             <p className='compra-productos-data'>¡Contactanos!</p>

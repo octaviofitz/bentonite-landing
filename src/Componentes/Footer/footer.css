@@ -49,6 +49,22 @@ a{
     text-decoration: none;
     color: #1d6b87;
 }
+
+.fa-whatsapp:hover{
+    font-weight: 900;
+    color: #565e66;
+}
+
+.fa-globe-americas:hover{
+    font-weight: 900;
+    color: #565e66;
+}
+
+.fa-map-marker-alt:hover{
+    font-weight: 900;
+    color: #565e66;
+}
+
 @media (min-width: 1024px){
    
     .container-footer{

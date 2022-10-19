@@ -8,14 +8,14 @@ const Footer = () => {
         <footer className='footer'> 
         <div className='container-footer'>
         <div>
-            <p className='footer-title'>Bentonita</p>
+            <p className='footer-title'>BENTONITA</p>
             </div>
             <div>
             <div className='footer-container-lista'>
               <Link activeClass="active" to="inicio" smooth={true} duration={1200}>  <li className='footer-lista'>Inicio</li> </Link>
               <Link activeClass="active" to="propiedades" smooth={true} duration={1200}>  <li className='footer-lista'>Propiedades</li> </Link>
+              <Link activeClass="active" to="documental" smooth={true} duration={1200}>  <li className='footer-lista'>Documental</li> </Link>
               <Link activeClass="active" to="contacto" smooth={true} duration={1200}>  <li className='footer-lista'>Contacto</li> </Link>
-                <Link activeClass="active" to="usos" smooth={true} duration={1200}>  <li className='footer-lista'>Usos</li> </Link>
             </div>
             </div>
             <div>

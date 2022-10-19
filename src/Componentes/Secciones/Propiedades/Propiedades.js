@@ -5,7 +5,7 @@ const Propiedades = () => {
     return (
         <section className='propiedades' id='propiedades'>
             <div>
-            <h2 className='title-propiedades'>Propiedades de la Bentonita</h2>
+            <h2 className='title-propiedades'>PROPIEDADES DE LA BENTONITA</h2>
             </div>
             <div className='cards-propiedades'>
 
