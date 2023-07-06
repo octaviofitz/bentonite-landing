@@ -32,6 +32,11 @@ a{
     cursor: pointer;
 }
 
+.footer-lista:hover{
+    font-weight: 700;
+    color: #1d6b87;
+}
+
 .footer-iconos{
     font-size: 1.5rem;
 }
@@ -50,19 +55,31 @@ a{
     color: #1d6b87;
 }
 
-.fa-whatsapp:hover{
-    font-weight: 900;
-    color: #565e66;
-}
 
-.fa-globe-americas:hover{
-    font-weight: 900;
-    color: #565e66;
-}
 
+.fa-whatsapp:hover,
+.fa-globe-americas:hover,
 .fa-map-marker-alt:hover{
     font-weight: 900;
     color: #565e66;
+}
+
+.footer .web{
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.footer .galide{
+    color: #1d6b87;
+    font-weight: 700;
+}
+
+.footer .galide:hover{
+    font-weight: 900
+}
+
+.footer a{
+    color: #1d6b87;
 }
 
 @media (min-width: 1024px){
@@ -76,6 +93,23 @@ a{
     .footer-lista,
     .footer-iconos{
         padding: 0px 0.75rem;
+    }
+
+    .footer-container-derechos-web{
+        display: flex;
+        justify-content: space-around;
+        order: -1;
+        margin: -0.5rem 20vw;
+    }
+
+    .footer .web{
+        margin-top: -0.25rem;
+        font-size: 1.1rem;
+        order: 0;
+    }
+
+    .footer .galide{
+        order: 1;
     }
 }
 

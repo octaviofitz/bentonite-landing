@@ -27,7 +27,11 @@ const Footer = () => {
             </div>
             </div>
             
-            <p className='footer-copyright'>Todos los derechos reservados - 2022</p>
+            <div className='footer-container-derechos-web'>
+            <p className='footer-copyright'>© Todos los derechos reservados - 2023</p>
+            <a href='https://www.galide.com.ar' target='_blank' rel="noreferrer noopener"><p className='web'>Web desarrollada por <span className='galide'>GALIDÉ</span></p></a>
+          
+            </div>
         </footer>
     );
 };
