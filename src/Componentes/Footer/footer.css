@@ -14,6 +14,14 @@ a{
 .footer-title{
     font-size: 25px;
     color: #1d6b87;
+    text-align: center;
+}
+
+.footer .logo{
+    width: 30vw;
+    display: flex;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 .footer-container-lista,
@@ -21,7 +29,7 @@ a{
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 0.5rem 0px;
+    padding: 0.25rem 0px;
 }
 
 .footer-lista,
@@ -30,6 +38,11 @@ a{
     font-family: 'Lato', sans-serif;
     color: #565e66;
     cursor: pointer;
+}
+
+.footer-lista:hover,
+.footer-iconos:hover{
+    font-weight: 700;
 }
 
 .footer-iconos{
@@ -52,18 +65,29 @@ a{
 
 .fa-whatsapp:hover{
     font-weight: 900;
-    color: #565e66;
+    color: green;
 }
 
 .fa-globe-americas:hover{
     font-weight: 900;
-    color: #565e66;
+    color: skyblue;
 }
 
 .fa-map-marker-alt:hover{
     font-weight: 900;
-    color: #565e66;
+    color: red;
 }
+
+@media (min-width: 768px){
+
+    .footer .logo{
+        width: 14vw;
+        margin-bottom: 1rem;
+    }
+
+}
+
+
 
 @media (min-width: 1024px){
    
@@ -71,11 +95,16 @@ a{
         flex-direction: row;
         justify-content: space-around;
     }
+
+    .footer .logo{
+        width: 6vw;
+        margin-bottom: 1rem;
+    }
     
     .footer-title,
     .footer-lista,
     .footer-iconos{
-        padding: 0px 0.75rem;
+        padding: 20px 0.75rem;
     }
 }
 

@@ -23,7 +23,7 @@ const AppRouter = () => {
             <Informacion />
             <UsosBentonita />
             <CompraBentonita />
-            <CompraProductos />
+           {/*  <CompraProductos /> */}
             <Footer />
         </>
     );

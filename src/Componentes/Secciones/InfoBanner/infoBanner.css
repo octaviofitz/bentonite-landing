@@ -1,44 +1,36 @@
-.texto-explicativo-azul{
-    color: #424A4F;
-    background-color: #dfeeee;
-    font-family: 'Roboto Slab', serif;
-    font-size: 19px;
-    padding: 1rem 1.25rem;
-    font-weight: 300;
+.container-data {
+    padding: 2rem;
+    background-color: #FFFCF7;
 }
 
-.texto-explicativo-blanco{
-    color: #424A4F;
-    background-color: #fff;
-    font-family: 'Roboto Slab', serif;
-    font-size: 19px;
-    margin: 0px 0em;
-    padding: 1rem 1.25rem;
-    font-weight: 300;
-}
-.texto-explicativo-blanco:last-child{
-   padding-top: 0rem;
+.container-data .texto{
+    text-align: justify;
+    font-size: 1.1rem;
 }
 
 @media (min-width: 768px){
     
-    .texto-explicativo-azul,
-    .texto-explicativo-blanco{
+  .container-data .texto{
         font-size: 21px;
         font-weight: 300;
-        padding: 2rem;
+        padding: 0 1rem;
     }
 }
 
 
 @media (min-width: 1024px){
     
-    .texto-explicativo-azul{
-        padding: 2rem 15rem 2rem 15rem;
-    }
-
-    .texto-explicativo-blanco{
-        padding: 2rem 15rem;
+  .container-data .texto{
+        font-size: 20px;
+        padding: 0 5vw;
     }
 
 }
+
+@media (min-width: 1440px){
+    
+    .container-data .texto{
+        font-size: 23px;
+          padding: 0 7vw;
+      }
+    }

@@ -5,11 +5,11 @@
 
 .titulo-certificacion {
     font-size: 1.7rem;
-    font-weight: 300;
-    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
     color: #424A4F;
     line-height: 1.3;
     padding: 2rem 0px;
+    text-align: center;
 }
 
 .img-certificacion{
@@ -20,5 +20,10 @@
 
 #img-iram{
     opacity: 0.75;
+}
+
+.container-certificacion-imagenes{
+    display: flex;
+    justify-content: center;
 }
 

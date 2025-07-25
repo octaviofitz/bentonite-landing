@@ -6,22 +6,28 @@
 }
 
 .title-banner{
-    font-family: 'Roboto Slab', serif;
     color: #00ACBB;
     font-size: 15vw;
+    text-align: center;
+    font-weight: 700;
 }
 
 .subtitle-banner{
-    font-family: 'Roboto Slab', serif;
      font-size: 7vw;
      color: #fff;
-     font-weight: 200;
+     font-weight: 300;
+     text-align: center;
 }
 
 #inicio .btn-secondary{
     background-color: #00ACBB;
     border: none;
     padding: 0.75rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 0;
+    font-size: 4vw;
 }
 
 
@@ -33,6 +39,10 @@
 
     .subtitle-banner{
         font-size: 4.5vw;
+    }
+
+    #inicio .btn-secondary{
+        font-size: 2.75vw;
     }
     
 
@@ -51,5 +61,28 @@
          font-size: 3vw;
     }
 
+    #inicio .btn-secondary{
+        font-size: 2vw;
+    }
 }
 }
+@media (min-width: 1440px){
+
+    #inicio .btn-secondary{
+        font-size: 1.35vw;
+    }
+}
+
+@keyframes latido {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .latido {
+    animation: latido 4.5s infinite;
+    transition: transform 0.3s ease-in-out;
+  }

@@ -9,10 +9,12 @@ const CompraProductos = () => {
         <section className='compra-productos'>
             <div className='container-compra-productos'>
                 <div className='container-data-general'>
-                <h3 className='compra-productos-title'>COMPRAR PRODUCTOS</h3>
-            <p className='compra-productos-data'>Realizamos distribución de <b> productos a base de bentonita.</b></p>
-            <p className='compra-productos-data'>¿Te interesa vender nuestros productos en tu región?</p>
-            <p className='compra-productos-data'>¡Contactanos!</p>
+                <h3 className='compra-productos-title'>Distribuimos productos a base de bentonita</h3>
+            <p className='compra-productos-data'>¿Querés ofrecerlos en tu zona?</p>
+            <p className='compra-productos-data'>Sumate como distribuidor y accedé a precios especiales</p>
+            <a href="https://api.whatsapp.com/send?phone=+5492215898698&text=Hola, estoy interesado en adquirir productos a base de bentonita." target='_blank' rel="noreferrer noopener"><Button variant="secondary" size="lg" className='button-compra-productos'>
+                 Comprar
+             </Button></a>
                 </div>
                 <div className='container-video-boton'>
                 <ReactYouTubeLite 
@@ -20,9 +22,6 @@ const CompraProductos = () => {
                 noCookie= {true}
                 title="Rubicat Arena"
                 />
-                <a href="https://api.whatsapp.com/send?phone=+541132762324&text=Hola, estoy interesado en adquirir productos a base de bentonita." target='_blank' rel="noreferrer noopener"><Button variant="secondary" size="lg" className='button-compra-productos'>
-                 Comprar
-             </Button></a>
                 </div>
             
             

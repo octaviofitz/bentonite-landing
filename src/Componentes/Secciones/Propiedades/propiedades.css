@@ -5,11 +5,11 @@
 
 .title-propiedades{
     font-size: 1.7rem;
-    font-weight: 300;
-    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     color: #424A4F;
     line-height: 1.3;
-    margin: 0 0.25rem;
+    margin: 0 0.25rem 1rem;
+    text-align: center;
 }
 
 .cards-propiedades{
@@ -21,22 +21,25 @@
 .img-card{
     border-radius: 25%;
     max-height: 80px;
-    margin-top: 4rem ;
+    display: flex;
+    margin: 1rem auto;
 }
 
 .title-cards{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     margin-bottom: 1.5rem;
     color: #424A4F;
+    text-align: center;
 }
 
 .data-cards{
     font-family: 'Lato', sans-serif;
     color: #424A4F;
     margin: auto;
+    text-align: center;
 }
 
 @media (min-width: 768px){
@@ -62,6 +65,7 @@
     .title-propiedades{
         font-size: 35px;
         margin: auto;
+        padding-bottom: 1rem;
     }
 
     .data-cards{

@@ -1,46 +1,74 @@
-.container-documental{
+/* DOCUMENTAL.CSS */
+
+.documental {
+    background-color: #FFFCF7; 
+    padding: 40px 20px;
+    width: 100%;
+  }
+  
+  .container-documental {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-}
-
- .titulo-documental{
-    font-size: 38px;
-    color: #424A4F;
-    font-family: 'Roboto Slab', serif;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .texto-container {
+    max-width: 600px;
+    text-align: justify;
+    padding: 0 10px;
+  }
+  
+  
+  .texto-documental {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #000000;
     font-weight: 400;
-    margin-bottom: 1rem;
-}
+    margin-top: 1.25rem;
+    text-align: justify;
+  }
+  
+  .container-video-documental {
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 16 / 9;
+    padding: 0 10px;
+  }
 
-.texto-documental{
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-}
-
-@media (min-width: 768px){
-    .container-documental{
-        padding: 2rem 6rem;
+  @media (min-width: 1024px) {
+    .container-documental {
+      flex-direction: row;
+      justify-content: space-between;
+      /* align-items: flex-start; */
+      gap: 100px; /* aumentamos el espacio entre los bloques */
     }
-}
+  
+  /*   .texto-container {
+      width: 45%;
+    } */
 
-@media (min-width: 1024px){
-    .container-documental{
-        display: flex;
-        margin: auto;
-        width: 75vw;
+    .titulo-documental{
+       font-size: 32px;
     }
-
-    .texto-documental{
-        font-size: 1.15rem;
+  
+    .container-video-documental {
+      width: 55%;
+      padding: 0;
     }
-}
+  }
+  @media (min-width: 1440px) {
 
-@media (min-width: 1440px){
-    .container-documental{
-        width: 55vw;
+    .container-documental {
+      gap: 200px; /* Más separación todavía en pantallas grandes */
+  }
+
+    .container-video-documental {
+        width: 70%;
     }
-
-    .texto-documental{
-        font-size: 1.35rem;
+    .texto-container {
+        width: 60%;
     }
 }

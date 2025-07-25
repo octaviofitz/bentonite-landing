@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className='footer'> 
         <div className='container-footer'>
         <div>
-            <p className='footer-title'>BENTONITA</p>
+            <img src='/assets/banner/logo.png' className='logo' />
             </div>
             <div>
             <div className='footer-container-lista'>
@@ -20,14 +20,14 @@ const Footer = () => {
             </div>
             <div>
             <div className='footer-container-iconos'>
-                <li className='footer-iconos'> <a href="https://api.whatsapp.com/send?phone=+541132762324&text=Hola, vengo aquí a través de la web de bentonita" target='_blank' rel="noreferrer noopener"><i className="fab fa-whatsapp"></i></a></li>
-                <li className='footer-iconos'><a href='https://www.rubicat.com.ar' target='_blank' rel="noreferrer noopener"><i className="fas fa-globe-americas"></i></a></li>
-                <li className='footer-iconos'><a href='https://www.google.com/maps/place/Rubicat/@-34.7842268,-58.4247492,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcd30f9cec06ed:0x462185e1b045681f!8m2!3d-34.7842312!4d-58.4225605' target='_blank' rel="noreferrer noopener"><i className="fas fa-map-marker-alt"></i></a></li>
+                <li className='footer-iconos'> <a href="https://api.whatsapp.com/send?phone=+5492215898698&text=Hola, vengo aquí a través de la web de bentonita" target='_blank' rel="noreferrer noopener"><i className="fab fa-whatsapp"></i></a></li>
+                <li className='footer-iconos'><a href='http://minerpat.com.ar/inicio.html' target='_blank' rel="noreferrer noopener"><i className="fas fa-globe-americas"></i></a></li>
+                <li className='footer-iconos'><a href='https://www.google.com/maps/place/Minerales+Patagonicos+SA/@-38.9239238,-67.9654662,17z/data=!3m1!4b1!4m6!3m5!1s0x960a3097711add75:0x8a27f215744e886d!8m2!3d-38.9239238!4d-67.9654662!16s%2Fg%2F119typ5ln?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D' target='_blank' rel="noreferrer noopener"><i className="fas fa-map-marker-alt"></i></a></li>
             </div>
             </div>
             </div>
             
-            <p className='footer-copyright'>Todos los derechos reservados - 2022</p>
+            <p className='footer-copyright'>Todos los derechos reservados - 2025</p>
         </footer>
     );
 };

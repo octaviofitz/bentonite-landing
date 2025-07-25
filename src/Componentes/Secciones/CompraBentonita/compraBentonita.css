@@ -6,7 +6,6 @@
 .compra-bentonita-title{
     font-size: 38px;
     color: #424A4F;
-    font-family: 'Roboto Slab', serif;
     font-weight: 400;
     margin-bottom: 1rem;
 }
@@ -19,17 +18,25 @@
 
 .button-compra-bentonita{
     align-items: center;
-    margin-top: 1.25rem;
+    display: flex;
+    margin-top: 1.25rem auto;
+    justify-content: center;
 }
 
 #formulario{
     display: flex;
     flex-direction: column;
     margin: auto;
+    justify-content: center;
 }
 
 .swal-button{
     background-color: #FF8C1E;
+}
+
+.btn-secondary{
+    display: flex;
+    margin: 1rem auto;
 }
 
 @media (min-width: 768px){

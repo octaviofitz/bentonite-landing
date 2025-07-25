@@ -6,6 +6,8 @@
     width: 90%;
     max-width: 633px;
     border-radius: 10px;
+    display: flex;
+    margin: auto;
 }
 
 .container-data-informacion{
@@ -13,17 +15,15 @@
 }
 
 .title-informacion{
-    font-family: 'Roboto Slab', serif;
     color: #424a4f;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 27px;
 }
 
 .data-informacion{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 200;
+    font-weight: 400;
     margin-top: 1rem;
-    font-size: 1.10rem;
+    font-size: 1.1rem;
 }
 
 @media (min-width: 768px){
