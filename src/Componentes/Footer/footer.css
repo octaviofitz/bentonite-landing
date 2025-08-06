@@ -22,7 +22,7 @@ a{
     width: 30vw;
     display: flex;
     margin: auto;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem; /* Se reemplazó margin-bottom por padding-bottom */
 }
 
 .footer-container-lista,
@@ -54,7 +54,7 @@ a{
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     text-align: center;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem; /* Se reemplazó margin-bottom por padding-bottom */
     background-color: #FFFCF7;
 }
 
@@ -84,12 +84,10 @@ a{
 
     .footer .logo{
         width: 14vw;
-        margin-bottom: 1rem;
+        padding-bottom: 1rem; /* Mantener padding en vez de margin */
     }
 
 }
-
-
 
 @media (min-width: 1024px){
    
@@ -100,7 +98,7 @@ a{
 
     .footer .logo{
         width: 6vw;
-        margin-bottom: 1rem;
+        padding-bottom: 1rem; /* Mantener padding en vez de margin */
     }
     
     .footer-title,
@@ -108,7 +106,8 @@ a{
     .footer-iconos{
         padding: 20px 0.75rem;
     }
+
+    .footer-copyright{
+       display: none;
+        }
 }
-
-
-
