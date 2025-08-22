@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className='footer'> 
         <div className='container-footer'>
         <div>
-            <img src='/assets/banner/logo.webp' className='logo' />
+            <img src='/assets/banner/logo.webp' alt='bentonita certificada' className='logo' />
             </div>
             <div>
             <div className='footer-container-lista'>

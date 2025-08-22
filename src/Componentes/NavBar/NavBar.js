@@ -11,7 +11,7 @@ function BasicExample() {
   return (
 <Navbar expand="lg" className="bg-body-tertiary navbar-light">
   <Container>
-        <Navbar.Brand href="#home" className='navbar-brand'><img src='/assets/banner/logo.webp' className='logo' /></Navbar.Brand>
+        <Navbar.Brand href="#home" className='navbar-brand'><img src='/assets/banner/logo.webp' alt='bentonita certificada' className='logo' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
