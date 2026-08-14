@@ -20,12 +20,12 @@ function CarruselMobile() {
   <Carousel.Item interval={3000}>
     <img
        className='d-block w-100'
-      src="assets/usosCaroussel/petroleo.webp"
+      src="assets/usosCaroussel/industriaAnimal.webp"
       alt="Petroleo bentonita"
       id='img-carrusel-mobile'
     />
     <Carousel.Caption>
-      <h5 className='titulo-carrusel'>Petróleo</h5>
+      <h5 className='titulo-carrusel'>Industria Animal</h5>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -37,7 +37,7 @@ function CarruselMobile() {
       id='img-carrusel-mobile'
     />
     <Carousel.Caption>
-      <h5 className='titulo-carrusel'>Arena sanitaria</h5>
+      <h5 className='titulo-carrusel'>Arena Sanitaria</h5>
     </Carousel.Caption>
   </Carousel.Item>
 

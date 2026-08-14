@@ -18,12 +18,12 @@ function CarruselDesktop() {
   </Carousel.Item>
   <Carousel.Item interval={3000}>
     <img
-      src="assets/usosCaroussel/petroleo.webp"
+      src="assets/usosCaroussel/industriaAnimal.webp"
       alt="petroleo bentonita"
       id='img-carrusel-desktop'
     />
     <Carousel.Caption>
-      <h5 className='titulo-carrusel'>Petróleo</h5>
+      <h5 className='titulo-carrusel'>Industria Animal</h5>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -34,7 +34,7 @@ function CarruselDesktop() {
       id='img-carrusel-desktop'
     />
     <Carousel.Caption>
-      <h5 className='titulo-carrusel'>Arena sanitaria</h5>
+      <h5 className='titulo-carrusel'>Arena Sanitaria</h5>
     </Carousel.Caption>
   </Carousel.Item>
 
