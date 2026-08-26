@@ -17,10 +17,10 @@ const CompraBentonita = () => {
         e.preventDefault();
     
         emailjs.sendForm(
-          "service_ktkun58",
+          "service_o489fhh",
           "template_97th0cs",
           e.target,
-          "user_UZZRkDhqNS7u2f3QF9aOT"
+          "z8O1GRcQCd6E21vjV"
         ).then(res=>{
             console.log(res);
         }).catch(err=> console.log(err));
