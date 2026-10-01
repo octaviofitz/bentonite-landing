@@ -31,6 +31,8 @@
     padding: 0.30rem 2rem;
     text-align: center;
     text-transform: uppercase;
+    cursor: pointer;
+
 }
 
 .navbar-light .link:hover {
