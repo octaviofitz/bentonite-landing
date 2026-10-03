@@ -24,9 +24,8 @@ const InfoBanner = () => {
 
     // Registra una vez qué variante vio el visitante
     useEffect(() => {
-        if (window.gtag) {
-            window.gtag('event', 'ab_exposure', { ab_variant: variant });
-        }
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ event: 'ab_exposure', ab_variant: variant });
     }, [variant]);
 
     return (
