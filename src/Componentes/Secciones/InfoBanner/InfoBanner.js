@@ -19,11 +19,16 @@ const TEXTOS = {
     ],
 };
 
+// Evita mandar ab_exposure más de una vez por carga de página
+let exposicionEnviada = false;
+
 const InfoBanner = () => {
     const variant = useVariant();
 
     // Registra una vez qué variante vio el visitante
     useEffect(() => {
+        if (exposicionEnviada) return;
+        exposicionEnviada = true;
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({ event: 'ab_exposure', ab_variant: variant });
     }, [variant]);
