@@ -1,9 +1,19 @@
+:root {
+  --azul: #1d6b87;
+  --azul-oscuro: #134a5e;
+  --azul-profundo: #0e3443;
+  --celeste: #5aaecc;
+  --celeste-suave: #8fd3ea;
+  --celeste-claro: #eaf5f9;
+  --blanco: #ffffff;
+}
+
 .App {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  background-color: #FFFCF7;
+  background-color: var(--blanco);
   margin-bottom: -1rem;
 }
 
@@ -11,3 +21,95 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto+Slab:wght@200;300;400;500;700;800;900&display=swap'); */
+/* Fondos de sección: se alternan blanco, celeste y azul */
+.fondo-blanco {
+  background-color: var(--blanco);
+}
+
+.fondo-celeste {
+  background: linear-gradient(180deg, #f2f9fb 0%, var(--celeste-claro) 100%);
+}
+
+.fondo-azul {
+  background: linear-gradient(135deg, var(--azul) 0%, var(--azul-oscuro) 100%);
+  color: #fff;
+}
+
+/* Burbujas decorativas de fondo */
+.burbujas {
+  --color-burbuja: rgba(255, 255, 255, 0.06);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.burbujas-claras {
+  --color-burbuja: rgba(29, 107, 135, 0.07);
+}
+
+/* Burbujas del lado opuesto, para que no se repitan iguales entre secciones */
+.burbujas-invertidas::before {
+  right: auto;
+  left: -140px;
+}
+
+.burbujas-invertidas::after {
+  left: auto;
+  right: -100px;
+}
+
+.burbujas::before,
+.burbujas::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  background-color: var(--color-burbuja);
+  pointer-events: none;
+}
+
+.burbujas::before {
+  width: 420px;
+  height: 420px;
+  top: -180px;
+  right: -140px;
+}
+
+.burbujas::after {
+  width: 300px;
+  height: 300px;
+  bottom: -150px;
+  left: -100px;
+}
+
+/* Bajada chica arriba de los títulos */
+.etiqueta-seccion {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--celeste);
+  margin-bottom: 0.75rem;
+}
+
+.fondo-azul .etiqueta-seccion {
+  color: var(--celeste-suave);
+}
+
+/* Botón principal en la gama de azules */
+.btn-secondary,
+.swal-button {
+  background-color: var(--azul) !important;
+  border: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.swal-button:not([disabled]):hover {
+  background-color: var(--azul-oscuro) !important;
+}
+
+.btn-secondary:disabled {
+  background-color: #9fb9c3 !important;
+}

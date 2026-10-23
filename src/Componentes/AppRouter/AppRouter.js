@@ -8,6 +8,7 @@ import CompraProductos from "../Secciones/CompraProductos/CompraProductos";
 import Documental from "../Secciones/Documental/Documental";
 import InfoBanner from "../Secciones/InfoBanner/InfoBanner";
 import Informacion from "../Secciones/Informacion/Informacion";
+import NuestrasMarcas from "../Secciones/NuestrasMarcas/NuestrasMarcas";
 import Propiedades from "../Secciones/Propiedades/Propiedades";
 import UsosBentonita from "../Secciones/UsosBentonita/UsosBentonita";
 
@@ -22,6 +23,7 @@ const AppRouter = () => {
             <Certificacion />
             <Informacion />
             <UsosBentonita />
+            <NuestrasMarcas />
             <CompraBentonita />
            {/*  <CompraProductos /> */}
             <Footer />

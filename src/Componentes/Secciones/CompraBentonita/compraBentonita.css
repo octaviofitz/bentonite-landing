@@ -1,12 +1,19 @@
 .compra-bentonita{
-    background-color: #dfeeee;
-    padding: 2rem;
+    padding: 3rem 2rem;
+}
+
+.formulario-compra-bentonita{
+    background-color: var(--blanco);
+    border: 1px solid rgba(29, 107, 135, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(19, 74, 94, 0.10);
+    padding: 1rem;
 }
 
 .compra-bentonita-title{
     font-size: 38px;
-    color: #424A4F;
-    font-weight: 400;
+    color: var(--azul-oscuro);
+    font-weight: 900;
     margin-bottom: 1rem;
 }
 
@@ -28,10 +35,6 @@
     flex-direction: column;
     margin: auto;
     justify-content: center;
-}
-
-.swal-button{
-    background-color: #FF8C1E;
 }
 
 .btn-secondary{

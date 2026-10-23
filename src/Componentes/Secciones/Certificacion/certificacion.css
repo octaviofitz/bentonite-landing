@@ -1,12 +1,11 @@
 .container-certificacion{
-    background-color: #dfeeee;
-    filter: brightness(99%);
+    padding: 1.5rem 0 1rem;
 }
 
 .titulo-certificacion {
     font-size: 1.7rem;
-    font-weight: 600;
-    color: #424A4F;
+    font-weight: 900;
+    color: var(--azul-oscuro);
     line-height: 1.3;
     padding: 2rem 0px;
     text-align: center;

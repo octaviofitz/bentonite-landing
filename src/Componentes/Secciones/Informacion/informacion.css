@@ -1,5 +1,5 @@
 .container-seccion-informacion{
-    background-color: #FFFCF7;
+    background-color: var(--blanco);
 }
 
 .container-informacion{
@@ -19,8 +19,8 @@
 }
 
 .title-informacion{
-    color: #424a4f;
-    font-weight: 600;
+    color: var(--azul-oscuro);
+    font-weight: 900;
     font-size: 27px;
 }
 
