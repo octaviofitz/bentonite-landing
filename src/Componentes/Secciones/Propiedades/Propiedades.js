@@ -3,7 +3,7 @@ import '../Propiedades/propiedades.css'
 
 const Propiedades = () => {
     return (
-        <section className='propiedades' id='propiedades'>
+        <section className='propiedades fondo-celeste burbujas burbujas-claras' id='propiedades'>
             <div>
             <h2 className='title-propiedades'>PROPIEDADES DE LA BENTONITA</h2>
             </div>

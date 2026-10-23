@@ -4,11 +4,12 @@ import { ReactYouTubeLite } from 'react-youtube-lite';
 
 const Documental = () => {
     return (
-        <section className='documental'>    
+        <section className='documental fondo-azul burbujas burbujas-invertidas'>    
           
             <div className='container-documental'>      
                 
                 <div className='texto-container' id='documental'>
+                <span className='etiqueta-seccion'>Detrás de escena</span>
                 <h1 className='titulo-documental'>DOCUMENTAL BENTONITA</h1>
                       <p className='texto-documental'>Con el objetivo de mostrar el detrás de escena de nuestro trabajo, realizamos un documental que recorre todo el proceso que atraviesa la bentonita en nuestra planta: desde su extracción y tratamiento, hasta el envasado y la logística para llegar a nuestros clientes. Una mirada auténtica al recorrido completo del producto.</p>  
                 </div>

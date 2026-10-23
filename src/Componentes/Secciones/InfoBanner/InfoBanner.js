@@ -34,7 +34,7 @@ const InfoBanner = () => {
     }, [variant]);
 
     return (
-        <section>
+        <section className='fondo-blanco burbujas burbujas-claras burbujas-invertidas'>
             <div className='container-data'>
                 {TEXTOS[variant].map((texto, i) => (
                     <p className='texto' key={i}>{texto}</p>

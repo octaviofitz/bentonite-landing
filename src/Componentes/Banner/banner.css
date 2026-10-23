@@ -1,12 +1,12 @@
 .banner{
-    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/assets/banner/yacimiento.webp') center;
+    background: linear-gradient(rgba(8, 18, 24, 0.72), rgba(4, 10, 14, 0.74)), url('../../../public/assets/banner/yacimiento.webp') center;
     background-size: cover;
     width: 100%;
     padding: 18vh 10vw;
 }
 
 .title-banner{
-    color: #00ACBB;
+    color: var(--celeste-suave);
     font-size: 15vw;
     text-align: center;
     font-weight: 700;
@@ -20,7 +20,7 @@
 }
 
 #inicio .btn-secondary{
-    background-color: #00ACBB;
+    background-color: #00ACBB !important;
     border: none;
     padding: 0.75rem 2rem;
     text-align: center;
@@ -82,6 +82,10 @@
     }
   }
   
+  #inicio .btn-secondary:hover{
+    background-color: var(--celeste) !important;
+  }
+
   .latido {
     animation: latido 4.5s infinite;
     transition: transform 0.3s ease-in-out;

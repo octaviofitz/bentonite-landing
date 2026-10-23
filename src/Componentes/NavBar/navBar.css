@@ -1,100 +1,144 @@
-/* Fondo claro para el navbar */
-.bg-light {
-    background-color: #FFFCF7;
+/* Navbar fijo arriba, blanco con leve transparencia */
+.navbar-bentonita {
+    background-color: rgba(255, 255, 255, 0.92) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(29, 107, 135, 0.08);
+    transition: box-shadow 0.3s ease;
+    --bs-navbar-padding-y: 0.35rem;
 }
 
-.navbar{
-    --bs-navbar-padding-y: 0.2rem;
+.navbar-bentonita.con-scroll {
+    box-shadow: 0 4px 20px rgba(19, 74, 94, 0.10);
 }
 
-/* Marca del navbar */
-.navbar-brand {
-    color: #1d6b87 !important;
-}
-
-/* Estilo del brand */
-.navbar-light .navbar-brand {
-    color: #1d6b87;
-    font-size: 22px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.navbar-light .navbar-brand:hover {
-    color: #1d6b87;
-}
-
-/* Enlaces del navbar */
-.navbar-light .link {
-    color: #1d6b87;
-    font-size: 20px;
-    padding: 0.30rem 2rem;
-    text-align: center;
-    text-transform: uppercase;
-    cursor: pointer;
-
-}
-
-.navbar-light .link:hover {
-    color: #5aaecc;
-}
-
-/* Ícono del botón de toggle */
-.navbar-toggler {
-    color: #1d6b87;
-}
-
-
-.navbar .logo{
-    width: 75px;
+.navbar .logo {
+    width: 64px;
     margin: 0.15rem 0;
+    transition: transform 0.25s ease;
+}
+
+.navbar .logo:hover {
+    transform: rotate(-6deg) scale(1.05);
+}
+
+/* Enlaces */
+.navbar-bentonita .link {
+    position: relative;
+    color: var(--azul-oscuro);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+/* Subrayado animado */
+.navbar-bentonita .link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0.35rem;
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--celeste);
+    transform: translateX(-50%);
+    transition: width 0.25s ease;
+}
+
+.navbar-bentonita .link:hover,
+.navbar-bentonita .link.active {
+    color: var(--azul);
+}
+
+.navbar-bentonita .link:hover::after,
+.navbar-bentonita .link.active::after {
+    width: 60%;
+}
+
+/* Botón de contacto */
+.navbar-bentonita .boton-navbar {
+    display: inline-block;
+    color: #fff;
+    background-color: var(--azul);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.6rem 1.5rem;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(29, 107, 135, 0.25);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-bentonita .boton-navbar:hover {
+    color: #fff;
+    background-color: var(--azul-oscuro);
+    transform: translateY(-2px);
+}
+
+/* Botón hamburguesa */
+.toggle-bentonita {
+    border: none;
+    padding: 0.5rem;
+}
+
+.toggle-bentonita:focus {
+    box-shadow: 0 0 0 3px rgba(90, 174, 204, 0.35);
 }
 
 @media (min-width: 768px){
     .navbar .logo{
-        width: 100px;
+        width: 76px;
     }
 }
+
 /* ===== MOBILE ===== */
-@media (max-width: 1023px) {
-    .navbar-collapse.show {
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 991px) {
+    .navbar-collapse .navbar-nav {
+        padding: 0.75rem 0 1rem;
+        gap: 0.25rem;
+        align-items: stretch !important;
     }
 
-    .navbar-collapse.show .navbar-nav {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .navbar-bentonita .link {
+        border-radius: 10px;
+    }
+
+    .navbar-bentonita .link:hover {
+        background-color: var(--celeste-claro);
+    }
+
+    .navbar-bentonita .link::after {
+        display: none;
+    }
+
+    .navbar-bentonita .boton-navbar {
+        margin-top: 0.5rem;
     }
 }
 
 /* ===== DESKTOP ===== */
-@media (min-width: 1024px) {
-    /* Asegura que el container distribuya brand a la izquierda y nav a la derecha */
-    .navbar .container {
-        display: flex !important;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    /* Evita que el collapse ocupe todo el ancho */
-    .navbar-collapse {
-        flex-grow: 0 !important;
-    }
-
+@media (min-width: 992px) {
     .navbar-nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
+        gap: 0.5rem;
     }
 
-    .navbar .logo{
-        width: 90px;
+    .navbar-bentonita .boton-navbar {
+        margin-left: 1rem;
     }
 }
 
-
+@media (prefers-reduced-motion: reduce){
+    .navbar .logo,
+    .navbar-bentonita .link::after,
+    .navbar-bentonita .boton-navbar {
+        transition: none;
+    }
+}

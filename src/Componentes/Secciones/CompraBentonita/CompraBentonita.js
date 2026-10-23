@@ -66,7 +66,7 @@ const CompraBentonita = () => {
     }
 
     return (
-        <section className='compra-bentonita' id='contacto'>
+        <section className='compra-bentonita fondo-blanco burbujas burbujas-claras' id='contacto'>
             <div className='container-compra-bentonita'>
                 <div className='texto-compra-bentonita'>
             <h3 className='compra-bentonita-title'>COMPRAR BENTONITA</h3>
