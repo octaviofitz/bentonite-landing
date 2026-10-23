@@ -15,6 +15,14 @@
     font-family: 'Lato', sans-serif;
 }
 
+/* En celular y tablet se ve la sección Información (celeste) justo antes,
+   así que acá va blanco para que se note el cambio */
+@media (max-width: 1023px){
+    .container-usos.fondo-celeste{
+        background: var(--blanco);
+    }
+}
+
 #carrusel-desktop{
     display: none;
 }

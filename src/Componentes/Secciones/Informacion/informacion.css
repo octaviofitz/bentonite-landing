@@ -1,5 +1,5 @@
 .container-seccion-informacion{
-    background-color: var(--blanco);
+    padding: 1rem 0 2rem;
 }
 
 .container-informacion{
@@ -60,8 +60,7 @@
 
 @media (min-width: 1024px){
 
-    .container-seccion-informacion{
-        padding-bottom: 3rem;
+    .seccion-informacion{
         display: none;
     }
 
