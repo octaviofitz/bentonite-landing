@@ -1,15 +1,8 @@
-/* Navbar fijo arriba, blanco con leve transparencia */
+/* Navbar blanco */
 .navbar-bentonita {
-    background-color: rgba(255, 255, 255, 0.92) !important;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: var(--blanco) !important;
     border-bottom: 1px solid rgba(29, 107, 135, 0.08);
-    transition: box-shadow 0.3s ease;
     --bs-navbar-padding-y: 0.35rem;
-}
-
-.navbar-bentonita.con-scroll {
-    box-shadow: 0 4px 20px rgba(19, 74, 94, 0.10);
 }
 
 .navbar .logo {
