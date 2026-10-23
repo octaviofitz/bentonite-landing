@@ -25,7 +25,7 @@ const marcas = [
         logo: '/assets/marcas/rubicat.webp',
         rubro: 'Mascotas',
         titulo: 'Arena sanitaria',
-        descripcion: 'Venta de bentonita para arena sanitaria de gatos.',
+        descripcion: 'Venta de arena sanitaria para gatos elaborada a base de bentonita.',
         url: 'https://rubicat.com.ar/',
         color: '#00909c',
     },

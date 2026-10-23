@@ -3,7 +3,7 @@ import '../Informacion/informacion.css'
 
 const Informacion = () => {
     return (
-        <section>
+        <section className='seccion-informacion fondo-celeste burbujas burbujas-claras'>
             <div className='container-seccion-informacion'>
             <div className='container-informacion'>
             <img src='/assets/landing/bentonita.webp' alt='bentonita sodica' className='img-informacion' />
