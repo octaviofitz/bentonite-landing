@@ -23,8 +23,8 @@ const AppRouter = () => {
             <Certificacion />
             <Informacion />
             <UsosBentonita />
-            <NuestrasMarcas />
             <CompraBentonita />
+            <NuestrasMarcas />
            {/*  <CompraProductos /> */}
             <Footer />
         </>

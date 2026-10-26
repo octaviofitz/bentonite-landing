@@ -1,11 +1,12 @@
 :root {
   --azul: #1d6b87;
   --azul-oscuro: #134a5e;
-  --azul-profundo: #0e3443;
+  --azul-profundo: #0a2530;
   --celeste: #5aaecc;
   --celeste-suave: #8fd3ea;
   --celeste-claro: #eaf5f9;
   --blanco: #ffffff;
+  --fondo-celeste: linear-gradient(180deg, #f2f9fb 0%, #eaf5f9 100%);
 }
 
 .App {
@@ -27,7 +28,7 @@
 }
 
 .fondo-celeste {
-  background: linear-gradient(180deg, #f2f9fb 0%, var(--celeste-claro) 100%);
+  background: var(--fondo-celeste);
 }
 
 .fondo-azul {
@@ -80,6 +81,36 @@
   height: 300px;
   bottom: -150px;
   left: -100px;
+}
+
+/* En celular las burbujas van a los costados, sin tocar el borde de arriba
+   ni el de abajo, para que no se junten con las de la sección vecina */
+@media (max-width: 767px) {
+  .burbujas::before {
+    width: 240px;
+    height: 240px;
+    top: 12%;
+    right: -150px;
+    left: auto;
+  }
+
+  .burbujas::after {
+    width: 200px;
+    height: 200px;
+    bottom: 12%;
+    left: -130px;
+    right: auto;
+  }
+
+  .burbujas-invertidas::before {
+    right: auto;
+    left: -150px;
+  }
+
+  .burbujas-invertidas::after {
+    left: auto;
+    right: -130px;
+  }
 }
 
 /* Bajada chica arriba de los títulos */
