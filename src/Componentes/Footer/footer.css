@@ -94,27 +94,103 @@ a{
 
 }
 
+/* Elementos que solo se muestran en computadora */
+.solo-desktop{
+    display: none;
+}
+
+/* ===== COMPUTADORA: footer en tres columnas ===== */
 @media (min-width: 1024px){
-   
+
+    .solo-desktop{
+        display: block;
+    }
+
     .container-footer{
-        flex-direction: row;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 1.4fr 1fr 1fr;
+        column-gap: 4rem;
+        align-items: start;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3.5rem 3rem 2.5rem;
     }
 
     .footer .logo{
-        width: 6vw;
-        padding-bottom: 1rem; /* Mantener padding en vez de margin */
+        width: 96px;
+        margin: 0 0 1.25rem;
+        padding: 0;
     }
-    
-    .footer-title,
+
+    .footer-descripcion{
+        font-size: 15px;
+        line-height: 1.6;
+        color: rgba(255, 255, 255, 0.7);
+        max-width: 320px;
+        margin: 0;
+    }
+
+    .footer-titulo{
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--celeste-suave);
+        margin: 0.5rem 0 1.25rem;
+    }
+
+    .footer-container-lista,
+    .footer-container-iconos{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        padding: 0;
+        margin: 0;
+    }
+
     .footer-lista,
     .footer-iconos{
-        padding: 20px 0.75rem;
+        padding: 0;
+        font-size: 16px;
+        transition: color 0.2s ease;
+    }
+
+    .footer-lista:hover{
+        font-weight: 400;
+        color: var(--celeste-suave);
+    }
+
+    .footer-iconos:hover{
+        font-weight: 400;
+    }
+
+    .footer-iconos a{
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .footer-iconos svg,
+    .footer-iconos i{
+        width: 1.1rem;
+        font-size: 1.1rem;
+    }
+
+    .texto-icono{
+        font-size: 16px;
     }
 
     .footer-copyright{
-       display: none;
-        }
+        /* Mismo ancho que las columnas de arriba */
+        width: calc(100% - 6rem);
+        max-width: calc(1200px - 6rem);
+        margin: 0 auto;
+        padding: 1.25rem 0 1.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: left;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.5);
+    }
 }
 
 .footer a{

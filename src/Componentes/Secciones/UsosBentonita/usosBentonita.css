@@ -23,7 +23,8 @@
     }
 }
 
-#carrusel-desktop{
+#carrusel-desktop,
+#grilla-usos-desktop{
     display: none;
 }
 
@@ -74,17 +75,23 @@
         margin-top: 1rem;
     }
 
+    /* Computadora: grilla de fotos en lugar del carrusel */
+    #carrusel-desktop{
+        display: none;
+    }
+
+    #grilla-usos-desktop{
+        display: block;
+        width: 100%;
+    }
+
     .description-usos{
         font-size: 20px;
         color: #424A4F;
-        padding: 0px 10rem;
+        max-width: 760px;
+        padding: 0;
+        margin: 0 auto 2.5rem;
+        text-align: center;
     }
 
-}
-
-@media (min-width: 1440px){
-
-    .description-usos{
-        padding: 0px 20rem;
-    }
 }

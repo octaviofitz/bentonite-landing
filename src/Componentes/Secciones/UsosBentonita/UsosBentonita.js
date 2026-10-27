@@ -3,6 +3,7 @@ import '../UsosBentonita/usosBentonita.css'
 //components
 import CarruselDesktop from '../Carruseles/CarruselDesktop/CarruselDesktop';
 import CarruselMobile from '../Carruseles/CarruselMobile/CarruselMobile';
+import GrillaUsos from '../GrillaUsos/GrillaUsos';
 
 
 const UsosBentonita = () => {
@@ -20,6 +21,9 @@ const UsosBentonita = () => {
                 </div>
                 <div id='carrusel-desktop' >
                 <CarruselDesktop />
+                </div>
+                <div id='grilla-usos-desktop'>
+                    <GrillaUsos />
                 </div>
             </div>
             </div>
