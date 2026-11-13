@@ -5,7 +5,7 @@ const usos = [
     { titulo: 'Industria Animal', img: 'assets/usosCaroussel/industriaAnimal.webp', alt: 'industria animal bentonita' },
     { titulo: 'Construcción', img: 'assets/usosCaroussel/construccion.webp', alt: 'construccion bentonita' },
     { titulo: 'Arena Sanitaria', img: 'assets/usosCaroussel/arenaSanitaria.webp', alt: 'arena sanitaria bentonita' },
-    { titulo: 'Cosmética', img: 'assets/usosCaroussel/makeup.webp', alt: 'cosmetica bentonita' },
+    { titulo: 'Peletizado', img: 'assets/usosCaroussel/peletizado.webp', alt: 'Peletizado bentonita' },
     { titulo: 'Alimento', img: 'assets/usosCaroussel/alimento.webp', alt: 'alimento bentonita' },
 ];
 

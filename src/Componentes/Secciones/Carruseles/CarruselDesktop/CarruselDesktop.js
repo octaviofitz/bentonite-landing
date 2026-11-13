@@ -19,11 +19,11 @@ function CarruselDesktop() {
   <Carousel.Item interval={3000}>
     <img
       src="assets/usosCaroussel/industriaAnimal.webp"
-      alt="petroleo bentonita"
+      alt="Nutrición animal bentonita"
       id='img-carrusel-desktop'
     />
     <Carousel.Caption>
-      <h5 className='titulo-carrusel'>Industria Animal</h5>
+      <h5 className='titulo-carrusel'>Nutrición Animal</h5>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -41,12 +41,12 @@ function CarruselDesktop() {
 
   <Carousel.Item interval={3000}>
     <img   
-      src="assets/usosCaroussel/makeup.webp"
-      alt="cosmetica bentonita"
+      src="assets/usosCaroussel/peletizado.webp"
+      alt="peletizado bentonita"
       id='img-carrusel-desktop'
     />
     <Carousel.Caption>
-      <h5 className='titulo-carrusel'>Cosmética</h5>
+      <h5 className='titulo-carrusel'>Peletizado</h5>
     </Carousel.Caption>
   </Carousel.Item>
 
